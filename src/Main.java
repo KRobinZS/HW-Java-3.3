@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         CreditPaymentService service = new CreditPaymentService();
-int monthlyPayment = service.calculate(12);
-        System.out.println("Ежемесяный платеж="+monthlyPayment);
+        int monthlyPayment = service.calculate(12);
+        System.out.println("Ежемесяный платеж=" + monthlyPayment);
     }
 }
